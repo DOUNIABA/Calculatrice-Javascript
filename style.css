@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+margin: 200px;
+display: flex;
+text-align: center;
+justify-content:center;
+min-height: 50vh;
+background: inherit;
+
+}
+
+.calculator{
+    width: 400px;
+    box-shadow: inset 0 0 2000px rgba(230, 74, 74, 0.5);
+    border-radius: 20px;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background: white;
+}
+input[type="text"]{
+    
+    height: 60px;
+    width: 300PX;
+    margin-top: 40px;
+    border-radius: 1px;
+    border-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;  
+}
+
+form .bouttons{
+    width: 300px;
+    margin: 10px 25px 0 50px  ;
+    padding: 10px ;    
+}
+
+input[type="button"]{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: white;
+    background: white;
+}
+
+input[type="button"]:hover{
+    background:#958bdf;
+    color: white;
+    border: none;
+
+    
+}
+#clear{
+    background:#D77FA1;
+    color: white;
+    border:none;
+
+   
+}
+#clear:hover{
+    background:#DD4A48;
+    background: black;
+    color: white;
+   
+}
+#equal{
+    width: 180px;
+    font-size: 25px;
+    background: #D77FA1;
+    border:none;
+    color: white;
+    
+}
+#equal:hover{
+    background: black;
+    color: white;
+   
+}
+
+#del{
+    background:#D77FA1;
+    color: white;
+    border:none;
+
+   
+}
+#del:hover{
+    background: black;
+    color: white;
+}

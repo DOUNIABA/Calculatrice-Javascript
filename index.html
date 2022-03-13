@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="utf-8">
+<title>calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <form>
+            <input type="text" name="display" placeholder='0'id="display" disabled>
+            <div class="bouttons">
+                
+                <input type="button" value="7" id="7" onclick="afficher('7')">
+                <input type="button" value="8" id="8" onclick="afficher('8')">
+                <input type="button" value="9" id="9" onclick="afficher('9')">
+                <input type="button" value="AC" id="clear" onclick="effacer()">
+               
+
+                <input type="button" value="4" id="4" onclick="afficher('4')">               
+                <input type="button" value="5" id="5" onclick="afficher('5')">
+                <input type="button" value="6" id="6" onclick="afficher('6')">
+                <input type="button" value="DEL" id="del" onclick="delet()">
+                <input type="button" value="1" id="1" onclick="afficher('1')">
+                <input type="button" value="2" id="2" onclick="afficher('2')">
+                <input type="button" value="3" id="3" onclick="afficher('3')">
+                <input type="button" value="-" id="soust" onclick="afficher('-')"><br>
+               
+                <input type="button" value="0" id="zero" onclick="afficher('0')">
+                <input type="button" value="." id="dut" onclick="afficher('.')" >
+                <input type="button" value="+" id="plus" onclick="afficher('+')">
+                <input type="button" value="*" id="mult" onclick="afficher('*')">
+                <input type="button"  value="=" id="equal" onclick="calculer()">
+                <input type="button" value="/" id="div" onclick="afficher('/')"><br>
+
+                
+
+            
+            </div>
+
+
+        </form>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
